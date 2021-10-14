@@ -1,0 +1,414 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul, li, a {
+    text-decoration: none;
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+iframe {
+    display: block;
+    margin: 16px auto;
+
+}
+
+.ml250 {
+    margin-left: 250px;
+}
+
+.white-text {
+    color: #fff;
+    line-height: 1.5;
+    padding: 0 32px;
+    text-align: justify;
+}
+
+body {
+    background: url(../img/bg.svg);
+}
+
+#header {
+    position: fixed;
+    top: 0; left: 0;
+    width: 250px;
+    height: 100vh;
+    padding: 30px 0;
+    background-image: url(../img/navigation-bg.png);
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.header-img {
+    width: 80px;
+}
+
+.nav-list:first-child {
+    margin-top: 32px;
+}
+
+.nav-list {
+    padding: 10px 0;
+}
+
+.nav-list:hover .nav-item {
+    color: #F20372;
+}
+
+.nav-item {
+    color: #fff;
+    font-size: 16px;
+}
+
+#header .contact-btn {
+    background-image: url(../img/button-border.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    padding: 18px 42px;
+    margin-top: 42px;
+    color: #fff;
+}
+
+.menu-btn {
+    position: fixed;
+    top: 0; right: 0;
+    padding: 32px;
+    margin: 16px;
+    background: url(../img/menu-btn.png) center / cover no-repeat;
+    display: none;
+}
+
+.fixed-right {
+    position: fixed;
+    right: 20px;
+    bottom: 150px;
+    text-align: center;
+}
+
+.fixed-right .social-net {
+    margin: 10px 0;
+}
+
+#slider {
+    padding-top: 55%;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#about {
+    display: flex;
+    margin-top: 20%;
+}
+
+#about .about-col-1 {
+    flex: 6;    
+}
+
+.about-col-1 .intro-1 {
+    padding-top: 60%;
+    background:url(../img/about/intro1.jpg) top center / cover no-repeat;
+}
+
+.about-col-1 .intro-3 {
+    padding-top: 40%;
+    background: url(../img/about/intro3.png) top right / cover no-repeat;
+    margin-left: 50%;
+}
+
+#about .about-col-2 {
+    flex: 4;  
+}
+
+.about-col-2 .intro-head {
+    padding-top: 45%;
+    background: url(../img/about/intro-heading.png) bottom center / cover no-repeat;
+    margin-top: -27%;
+}
+
+.about-col-2 .about-text {
+    margin-top: -40px;
+    
+}
+
+.about-col-2 .intro-2 {
+    padding-top: 75%;
+    background:url(../img/about/intro2.jpg) top center / cover no-repeat;
+    margin-left: -20%;
+    margin-right: 32px;
+    margin-top: 20%;
+}
+
+.intro-2 .smoke-intro-2 {
+    padding-top: 32%;
+    background:url(../img/about/intro-artwork2.png) top center / cover no-repeat;
+    margin-top: -86%;
+    margin-right: 55%;
+}
+
+.space-row-1 {
+    display: flex;
+    margin-top: 10%;
+}
+
+.space-row-1 .space-logo {
+    flex: 4;
+    background:url(../img/about/khong-gian.png) center / contain no-repeat;
+}
+
+.space-row-1 .space-text {
+    flex: 6;
+}
+
+.space-slide {
+    margin-top: 16px;
+    padding-top: 50%;
+    background:url(../img/about/space-slide1.jpg) center / cover no-repeat;
+}
+
+.menu-2-col {
+    display: flex;
+    margin-top: 20%;
+}
+
+.menu-2-col .menu-desc {
+    flex: 6;
+}
+
+.menu-2-col .menu-decor {
+    flex: 4;
+    padding-top: 50%;
+    background:url(../img/menu/menu-bg.png) top center / cover no-repeat;
+    margin-left: -20%;
+    margin-right: 32px;
+    margin-top: 20%;
+}
+
+.menu-desc .menu-desc-hd {
+    padding-top: 13%;
+    background:url(../img/menu/menu-heading.png) center / cover no-repeat;
+    margin-left: 50%;
+}
+
+.menu-desc .menu-desc-link {
+    background: url(../img/button-border.svg) top center / cover no-repeat;
+    color: #fff;
+    display: inline-block;
+    margin-top: 5%;
+    margin-left: 40%;
+    margin-right: 32px;
+    padding: 20px;
+}
+
+.menu-decor .menu-vertical-hd {
+    padding-top: 70%;
+    background:url(../img/menu/menu-vertical-heading.png) center / cover no-repeat;
+    margin-top: -165%;
+    margin-right: 32%;
+    margin-left: 40%;
+}
+
+.menu-3-col {
+    display: flex;
+    text-align: center;
+}
+
+.item-1-2 {
+    flex: 3;
+    padding: 16px;
+    margin-top: -30%;
+}
+
+.item-1 {
+    padding-top: 100%;
+    background:url(../img/menu/tra-sua-que.jpg) center / cover no-repeat;
+}
+
+.item-2 {
+    padding-top: 100%;
+    margin-top: 32px;
+    background:url(../img/menu/misuicao-xaxiu.jpg) center / cover no-repeat;
+}
+
+.item-3-4 {
+    flex: 3;
+    padding: 16px;
+    margin-top: -10%;
+}
+
+.item-3 {
+    padding-top: 100%;
+    background:url(../img/menu/hai-san-xao-tuong-xo.jpg) center / cover no-repeat;
+}
+
+.item-4 {
+    padding-top: 100%;
+    margin-top: 32px;
+    background:url(../img/menu/ngong-pha-lau-trien-chau.jpg) center / cover no-repeat;
+}
+
+.item-5 {
+    flex: 3;
+    margin-top: 10%;
+    padding: 16px;
+    padding-top: 50%;
+    background:url(../img/menu/muc-chien-gion.jpg) center / cover no-repeat;
+}
+
+.event-row-1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20%;
+}
+
+.event-1 {
+    flex: 4;
+    padding: 16px;
+}
+
+.event-2 {
+    flex: 6;
+    margin-top: 80px;
+    padding: 16px;
+
+}
+
+.event-3 {
+    padding: 16px;
+}
+
+.event-all {
+    font-size: 2em;
+    margin-bottom: 32px;
+    color: #61d4ea;
+}
+
+.labor-list {
+    margin-top: 20%;
+    padding-top: 10%;
+    background:url(../img/hiring/tuyendung-cover.jpg) bottom center / cover no-repeat;
+}
+
+.labor-item {
+    color: #fff;
+    font-size: 32px;
+    letter-spacing: 4px;
+    line-height: 2;
+    text-shadow: 0 0 10px rgba(0, 0, 0, .8);
+}
+
+.labor-list li:hover {
+    cursor: pointer;
+    color: #000;
+    background-color: #ccc;
+    width: initial;
+}
+
+.labor-modal {
+    display: none;
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: rgba(0, 0, 0, .4);
+    color: #fff;
+    font-size: 16px;
+    padding: 32px;
+    margin: 0 auto;
+    z-index: 2;
+    align-items: center;
+    justify-content: center;
+}
+
+.labor-modal.open{
+    display: flex;
+    animation: goUp ease .5s;
+}
+
+.labor-content {
+
+}
+
+.labor-hd {
+    color: #d244b2;
+    background-color: #61d4ea;
+    font-size: 36px;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+.modal-close {
+    position: absolute;
+    top: 0; right: 0;
+    padding: 8px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.modal-close:hover {
+    color: #333;
+    background-color: #ccc;
+}
+
+.labor-desc {
+    background-color: #333;
+    line-height: 1.6;
+    padding: 16px;
+}
+
+.contact-ft {
+    display: flex;
+    margin-top: 20%;
+}
+
+.google-map {
+    flex: 1;
+    text-align: center;
+}
+
+.baobei-info {
+    flex: 1;   
+}
+
+.info-logo {
+    padding-top: 20%;
+    background:url(../img/contact/lien-he.png) center / cover no-repeat;
+}
+
+.info-hd {
+    color: #F2C57E;
+    font-size: 24px;
+    padding: 12px;
+}
+
+.vise-host {
+    padding-top: 40%;
+    background:url(../img/contact/vise-hospitality.png) center / cover no-repeat;
+    margin: 0 30%;
+}
+
+.vise-smoke {
+    padding-top: 50%;
+    background:url(../img/contact/footer-artwork-2.png) top center / cover no-repeat;
+    margin-top: -10%;
+    margin-left: -15%;
+}
+
+
+@keyframes goUp {
+    from {
+        transform: translateY(400px);
+        opacity: .2;
+    } to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
